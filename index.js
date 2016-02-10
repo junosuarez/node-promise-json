@@ -1,7 +1,7 @@
 'use strict'
 const fetch = require('isomorphic-fetch')
 
-function fetchjson (url) {
+function json (url) {
   return fetch(url).then(function (res) {
     if (res.status >= 400) {
       throw new Error('HTTP status: ' + res.status)
@@ -10,4 +10,4 @@ function fetchjson (url) {
   })
 }
 
-module.exports = fetchjson
+module.exports = json

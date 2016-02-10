@@ -1,5 +1,5 @@
 {
-  "name": "fetchjson",
+  "name": "promise-json",
   "author": "jden <jason@denizac.org>",
   "version": "1.0.1",
   "description": "HTTP GET a json document returning a Promise",
@@ -18,7 +18,7 @@
     "pretest": "standard",
     "test": "mochi"
   },
-  "repository": "git@github.com:jden/node-fetchjson.git",
+  "repository": "git@github.com:jden/node-promise-json.git",
   "license": "ISC",
   "readmeFilename": "README.md",
   "devDependencies": {
