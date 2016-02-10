@@ -1,0 +1,32 @@
+{
+  "name": "fetchjson",
+  "author": "jden <jason@denizac.org>",
+  "version": "1.0.0",
+  "description": "HTTP GET a json document returning a Promise",
+  "keywords": [
+    "fetch",
+    "http",
+    "request",
+    "promise",
+    "json",
+    "simple",
+    "easy"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "pretest": "standard",
+    "test": "mochi"
+  },
+  "repository": "git@github.com:jden/node-fetchjson.git",
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "mochi": "0.3.0",
+    "nock": "^7.0.2",
+    "standard": "^6.0.0"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1"
+  }
+}
