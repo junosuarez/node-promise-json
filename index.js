@@ -1,5 +1,5 @@
 'use strict'
-const fetch = require('isomorphic-fetch')
+var fetch = require('isomorphic-fetch')
 
 function json (url) {
   return fetch(url).then(function (res) {
